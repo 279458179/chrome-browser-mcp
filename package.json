@@ -1,0 +1,41 @@
+{
+  "name": "chrome-browser-mcp",
+  "version": "1.0.0",
+  "description": "Universal Chrome browser automation MCP server with user profile preservation",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "chrome-browser-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "puppeteer-core": "^23.11.1",
+    "zod": "^3.24.2"
+  },
+  "keywords": [
+    "mcp",
+    "browser",
+    "automation",
+    "chrome",
+    "puppeteer",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
